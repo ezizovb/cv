@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color:#0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family:  'Roboto Condensed', sans-serif;
+}
+
+.ava{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: -11px 11px 0px rgba(150, 31, 31, 0.25);
+}
+
+#nam{
+    color: rgb(90, 76, 30);
+    letter-spacing: 2px;
+}
+
+.inf{
+    color:#86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-transform: capitalize;*/
+}
+.social{
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color: blue; /*когда с мышкой нажимаеш*/
+}
+/*a:visited{
+    color:grey; /*отметка посешенного сайта*/
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}    
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+.bg-red{
+    background: #ffe5e5;
+}
+.list{
+    padding: 0 20px;
+    list-style: none;
+}
+.card h3{
+    margin-bottom: 10px;
+}
+.table{
+    width: 100%;
+}
