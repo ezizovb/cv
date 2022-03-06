@@ -7,18 +7,22 @@
 </head>
 <body>
 <div class="container">
+    <div class="info">
         <img src="avatar.jpg" alt="Eziz G." class="ava"/>
-        <h1 id="nam">Geldijanov Eziz</h1>
-    <div class="inf">                
-        27.12.2022 <strong> restarted</strong>
-    </div>
-    <div class="social">
-        <h4>Contacts:</h4>
+            <div class="info-text">   
+                <h1 id="nam">Geldijanov Eziz</h1>
+                <div class="inf">                
+                    27.12.2022 <strong> restarted</strong>
+                </div>
+                <div class="social">
+                    <h4>Contacts:</h4>
 
-        <img src="tm.png"/ width="15px" ><a href="https://t.me/e717e" target="_blank"> Telegram</a> | 
-        <img src="inst.png" width="15px" /><a href="https://instagram.com/e717ev" target="_blank"><strike> Instagram</strike></a> 
-        
+                    <img src="tm.png"/ width="15px" ><a href="https://t.me/e717e" target="_blank"> Telegram</a> | 
+                    <img src="inst.png" width="15px" /><a href="https://instagram.com/e717ev" target="_blank"><strike> Instagram</strike></a>
+            </div>
+    </div>    
     </div>
+    
     <div class="card bg-yellow">
         <h3> DEV</h3>
             <ul>
@@ -45,42 +49,48 @@
                 <td><strong>Used:</strong></td>
             </tr>
           
-            <tr>
+            <tr class="link-list">
                 <td><a href="first.html" target="_blank">Project_1</a></td>
                 <td>March 2020</td>
                 <td>HTML</td>
             </tr>
-            <tr>
+            <tr class="link-list">
                 <td><a href="proj.html" target="_blank">Project_2</a></td>
                 <td>February 2021</td>
                 <td>CSS</td>
             </tr>
-            <tr>
+            <tr class="link-list">
             <td><a href="v1.html" target="_blank">Project_3</a></td>
             <td>May 2021</td>
             <td>HTML+CSS</td>
             </tr>
         </table>
     </div>
-        <h3>contact with me</h3>
-        <form action="/">
-        <label for="name">Your name:</label>
-        <input type="text" id="name"
-        placeholder="name...">
-        <br>
-        <label for="email">Your mail: </label>
-        <input type="text" id="email"
-        placeholder="email">
-        <br>
-        <label for="text">message</label> <br>
-        <textarea id="text" rows="2" cols="15"></textarea>
-        <br>
-        <input type="submit" value="Send">
-        </form>
-
+        <div class="contact">
+            <h3>contact with me</h3>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Your name:</label>
+                        <input type="text" id="name"
+                        placeholder="name...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your mail: </label>
+                        <input type="text" id="email"
+                        placeholder="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="text">message</label> <br>
+                    <textarea id="text" rows="2" cols="15"></textarea>
+                </div>
+            <input class="btn" type="submit" value="Send">
+            </form>
+        </div>
         <!--coment-->
 </div>
 <br/>
-<em>UPD: (Sat. March 5. 12:19 am)</em>
+<div class="upd"><em>UPD: (Sun. March 6. 03:46 am)</em></div>
 </body>
 </html>
