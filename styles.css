@@ -67,3 +67,8 @@ a {
 #iz:hover{
 	transform:rotate(30deg)scale(1);
 }
+@media (max-width:700px){
+    .info {
+        text-align: center;
+        display: block;
+    }
