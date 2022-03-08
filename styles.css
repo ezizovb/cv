@@ -1,5 +1,6 @@
 body{
 	background-image:url(1.jpg);
+	background-size: 100% 100%;
 	margin-left:25px;
 }
 h1 {
@@ -67,7 +68,7 @@ a {
 #iz:hover{
 	transform:rotate(30deg)scale(1);
 }
-@media (max-width:200px){
+@media (max-width:700px){
     .info {
         text-align: center;
         display: block;
