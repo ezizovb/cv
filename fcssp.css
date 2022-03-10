@@ -9,11 +9,18 @@ body {
     font-weight: normal;
     font-family:  'Roboto Condensed', sans-serif;
 }
-
+@media (max-width: 700px;){
+    body{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
 .ava{
     width: 200px;
     border-radius: 28px;
     box-shadow: -11px 11px 0px rgba(150, 31, 31, 0.25);
+
 }
 
 #nam{
@@ -38,6 +45,7 @@ body {
     max-width: 90%;
     margin: auto;
     padding-top: 30px;
+    background-size: 100% 100%;
 }
 
 a{
@@ -150,6 +158,9 @@ a:active{
 }
 .prod{
     vertical-align: 0.2em;
+}
+.j1{
+    color:#86898f;
 }
 /*.cub{
     
