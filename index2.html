@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="eziz, geldijanov, e717,">
+    <meta name="description" content="forms">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form>
+        <div>
+            <label for="text" >Text</label>
+            <input type="text" id="text" value="default text">
+        </div>
+        
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email">
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label for="number">Number</label>
+            <input type="number" id="number" min="0" max="10">
+        </div>
+
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" min="0" max="12" step="3"> 
+        </div>
+
+        <div>
+            <label for="date">Date</label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="color">Color</label>
+            <input type="color" id="color">
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <br>
+            <textarea id="message" cols="25" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="sex">Your gender</label>
+            <select id="sex">
+                <option value="male" selected>Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Choose your favorite Web language:</label><br>
+            <input type="radio"name="lan"> HTML<br>
+            <input type="radio"name="lan"> CSS<br>
+            <input type="radio"name="lan"> JavaScript<br>
+        </div>
+
+        <div>
+            <label>Choose your future profession:</label><br>
+            <input type="checkbox"name="eat"> Courier<br>
+            <input type="checkbox"name="eat"><strong>Programing</strong> <br>
+            <input type="checkbox"name="eat"> Сab driver<br>
+        </div>
+        
+        <!-- <input type="submit" value="Send"> -->
+        <button type="submit">Send</button>
+        <input type="reset">
+
+    </form>
+</body>
+</html>

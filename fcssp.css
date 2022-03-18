@@ -9,25 +9,16 @@ body {
     font-weight: normal;
     font-family:  'Roboto Condensed', sans-serif;
 }
-@media (max-width: 700px;){
-    body{
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-}
 .ava{
     width: 200px;
     border-radius: 28px;
     box-shadow: -11px 11px 0px rgba(150, 31, 31, 0.25);
 
 }
-
 #nam{
     color: rgb(90, 76, 30);
     letter-spacing: 2px;
 }
-
 .inf{
     color:#86898f;
     margin: 0;
@@ -36,23 +27,19 @@ body {
     text-decoration: none;
     /*text-transform: capitalize;*/
 }
-
 .social{
     margin-bottom: 20px;
 }
-
 .container{
     max-width: 90%;
     margin: auto;
     padding-top: 30px;
     background-size: 100% 100%;
 }
-
 a{
     color: black;
     text-decoration: underline;
 }
-
 a:hover {
     text-decoration: underline;
 }
@@ -68,7 +55,7 @@ a:active{
     border-radius: 20px;
 }    
 .bg-yellow{
-    background: #fff9dc;
+    background: #ECE0F5; /*fff9dc */
 }
 .bg-green{
     background: #e5ffe7;
@@ -149,7 +136,6 @@ a:active{
 .btn:hover {
     opacity: 0.9;
 }
-
 .upd{
     text-align: right;
     width: 95%;
