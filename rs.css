@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+    background: #eee;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 500px){
+    .container{
+        font-size: 1.5rem;
+        padding: 2rem;
+        text-align: center;
+    }
+}
+#header {
+    border: 1px solid grey;
+    margin-bottom: 10px; 
+    background: #ddd;
+    border-radius: 10px; 
+   
+}
+.card {
+    padding: 10px;             /*отступы */
+    background: #fff;
+    margin-bottom: 10px;       /*нижний отступы */
+    border-radius: 10px;
+}
+.card p {
+    font-size: 14px;
+}
+.html{
+    background:#F16524;
+    color:white;
+    
+}
+.css{
+    background:#379DD7FF;
+    color: white;
+}
+#header h3{
+    opacity: 0.5;
+    margin-left: 20px;
+}
+
+.border-1{
+    border: 2px solid violet;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.border-2{
+    border-bottom: 2px dashed darkred;
+    border-right: 5px solid darkmagenta;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.border-3{
+    border-left: 5px solid darkgreen; 
+    background: #96CC72FF;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.border-4{
+    color: brown;
+    background: rgb(227, 199, 238);
+    border-bottom: 5px solid #9F2DCCFF;
+    border-bottom-left-radius: 30px;
+    border-top: 5px solid rgb(117, 31, 151);
+    border-top-right-radius: 30px;
+    border-left: 5px solid #9F2DCCFF;
+    border-right: 5px solid rgb(117, 31, 151);
+    padding: 7px;
+    padding-left: 20px;
+}
+.link {
+    background: #C5C2FF;  
+}
+
+a {
+    color: rgb(62, 117, 62);
+    text-decoration: none;
+    /* transition: all .2s;  /*efect*/
+}
+a:hover{
+   color: rgb(47, 245, 21);
+   /* font-size: 2rem; /*efect*/
+}
+/* a:visited {
+    color:red;
+} */
+a:active {
+    color:fuchsia;
+}
+/* css:hover{
+    background: #479BC2;
+} */
+.btn{
+    background: #111;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;     /* поменяет курсора*/
+    border-radius: 5px;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+ 
+.list{
+    margin: 0;
+    padding:0;
+    list-style: none;  /*чтоб убратт точки в списке*/
+}
+.list li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+.table{
+    width: 100%;         /*для того чтоб занимал 100% ширины*/
+
+}
+.table td {
+    text-align: center; /* выравнования текста: center,right, left*/
+    padding-bottom: 10px;
+}
+.table td:hover {
+    background: #959ae6;   /*когда наводиш курсор*/
+}
+
+.table tr:nth-child(even){ 
+    background: #eee;      /* поменяет цвет чётных строчков */ 
+}
+
+.table tr:nth-child(odd){
+    background: rgb(252, 187, 187); /* поменяет цвет нечётных строчков */ 
+}
+
+.table td:nth-child(2), .table td:nth-child(4){
+    background: #fffeee; /* поменяет цвет второй и четвёртый столбиков */
+}
+
+.navbar{
+    max-width: 380px;  
+    margin: auto;
+    background: lightsalmon;
+    /* padding:10px 20px; */
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+   
+    list-style: none; 
+    margin:0;
+    padding: 0;
+    display: flex;
+    margin:center;
+    
+}
+.navbar ul li{
+    margin: auto;
+    margin-right: 10px;
+    padding: 10px;
+}
+.navbar ul li:hover {
+    background: #CC8B66;
+    border-radius: 15px;
+}
+.navbar ul li:last-child{
+    margin-right: 0;
+}
+/* inline, block, inline-block */
+.inline li {
+    display: block;               /* Выстраивать в блок*/
+    border: 1px solid black;
+}
+.box em {
+    border:1px solid black;
+    display: inline;              /* Выстраивать в одну линию */
+}
+.box p{
+    width:30%;
+    border:1px solid black;
+    background: blanchedalmond;
+    box-sizing: border-box;      /* Для адаптации*/
+    display: inline-block;       /* Выстраивать в одну линию каждого блока*/
+}
+.img{
+    width: 100px;
+    display: block;             /* Выстраивать в блок*/             
+    margin: 40px auto;         /* Сверху и снизу 40 пиксел а по бокам Центрально*/
+}
+
+.playground{
+    position: relative;
+    border: 4px solid black;
+    height: 300px;
+    padding: 20px;
+}
+
+.pos-box{
+    /* position: static; */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: coral;
+    bottom:0;
+    right: 0;
+
+}
+.navbar{
+    position: fixed;
+    top: 1px;
+    right: 0;
+    left: 0;
+    /* z-index: 1; */
+}
+
+#header{
+    margin-top: 45px;
+}

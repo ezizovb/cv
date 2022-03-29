@@ -3,7 +3,7 @@
 body {
     background-image:url(background2.jpg);
     background-size: 100% 100%;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     color:#0f141e;
     font-size: 16px;
     font-weight: normal;
@@ -79,6 +79,7 @@ a:active{
 .contact h3 {
     text-align:center;
 }
+
 .form-group label{
     display: block;
     font-size: 14px;
@@ -96,16 +97,21 @@ a:active{
     outline: none;
     font-family: inherit;
 }
+
 .row{
-    display: flex;
+     /* display: flex; */
+    /* display: block; */
+    box-sizing: border-box;
+    margin: auto;
     margin-bottom: 20px;
+    
 }
 .row > .form-group{
-    width: 50%;
+    width: 100%;
     margin-right: 20px;
 }
 .row > .form-group:last-child{
-    margin-right: 0;
+    /* margin-right: 0; */
 }
 .info{
     display: flex;
