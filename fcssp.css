@@ -41,7 +41,7 @@ body {
 }
 a{
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
@@ -164,7 +164,6 @@ a:active{
 }
 .pro a{
     color: #423F4AFF;
-    text-decoration: none;
 }
 /*.cub{
     
