@@ -63,7 +63,8 @@ body{
     font-family:'Press Start 2P', cursive;
     margin-left:90%;
     /* border: 1px solid grey; */
-    color: #597c55;
+    /* color: #597c55; */
+    color: #9398CDFF;
     right:50px;
     bottom: 40px;
 }
@@ -85,4 +86,7 @@ body{
     margin-left: 100px;
     margin-top: 300px;
     opacity: 0.5;
+}
+.prod{
+    vertical-align: 0.2em;
 }
