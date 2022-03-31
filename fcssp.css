@@ -91,7 +91,7 @@ a:active{
 }
 .form-group input,
 .form-group textarea {
-    width: 50%;
+    width: 70%;
     box-sizing: border-box;
     border: none;
     background: transparent;
