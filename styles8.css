@@ -1,15 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans:wght@600&family=Press+Start+2P&family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Exo+2:wght@500&family=Josefin+Sans:wght@600&family=Press+Start+2P&family=Roboto+Condensed&display=swap');
 body{
+    max-width: 800px;
     background-image:url(backgr.jpg);
     background-size: 100% 100%;
+    display: flex;
+    margin:40px auto;            
 }
 .container{
+    /* position: relative; */
+    /* display: inline-block; */
     /* border: 1px solid black; */
     padding: 10px;
     /* background-color: #C5C2FF; */
     border-radius: 25px;
     opacity: 1em;
+    margin: auto;
+}
+@media (max-width: 700px){
+    .container{
+        font-size: 1.5rem;
+        padding: 2rem;
+        text-align: center;
+    }
 }
 .table{
     width: 100%;         /*для того чтоб занимал 100% ширины*/
@@ -52,6 +65,7 @@ body{
     border-top-right-radius: 5px;
     opacity: 1;
     font-family: 'Roboto Condensed', sans-serif;
+    /* writing-mode: vertical-lr;   */
 }
 #iki{
     color: rgb(90, 5, 5);
