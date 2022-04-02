@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans:wght@600&family=Press+Start+2P&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Exo+2:wght@500&family=Josefin+Sans:wght@600&family=Press+Start+2P&family=Roboto+Condensed&display=swap');
+body{
+    background-image:url(backgr.jpg);
+    background-size: 100% 100%;
+}
+.container{
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* background-color: #C5C2FF; */
+    border-radius: 25px;
+    opacity: 1em;
+}
+.table{
+    width: 100%;         /*для того чтоб занимал 100% ширины*/
+    font-family: 'Exo 2', sans-serif;
+}
+.table td {
+    text-align: center; /* выравнования текста: center,right, left*/
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.table tr td{
+    border-bottom: 1px solid black;
+}
+/* .table th{
+
+} */
+.table td:nth-child(2), .table td:nth-child(6){
+    background: #BBC85B; /* поменяет цвет второй и четвёртый столбиков */
+    border-radius: 10px;
+    border: none;
+    opacity: 0.8;
+    background
+}
+.table td:nth-child(1), .table td:nth-child(3), .table td:nth-child(4), .table td:nth-child(5), .table td:nth-child(7), .table td:nth-child(8){
+    background: #d0a6da; /* поменяет цвет второй и четвёртый столбиков */
+    border-radius: 10px;
+    border:none;
+    opacity: 0.8;
+}
+#first{
+    font-size: 18px;
+    line-height: 64px;
+    margin-bottom: 25px;
+    border:1px solid grey;
+    background: #4B55C3;
+    color:rgb(219, 190, 219);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#iki{
+    color: rgb(90, 5, 5);
+    font-size: large;
+    background: #c07ad1;
+    font-weight: bold;
+}
+td{
+    color:black;
+}
+tr:hover{
+    background:rgb(47, 0, 255);
+    opacity: 1;
+    color:red;
+    font-weight: 800;
+    border-radius: 15px;
+}
+.down{
+    font-family: 'Roboto Condensed', sans-serif;
+    /* border:1px solid grey; */
+    text-align: center;
+    font-size: 25px;
+
+}
