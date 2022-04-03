@@ -67,12 +67,12 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     /* writing-mode: vertical-lr;   */
 }
-#uc{
+/* #uc{
     color: rgb(90, 5, 5);
     font-size: large;
     background: #c07ad1;
     font-weight: bold;
-}
+} */
 td{
     color:black;
 }
