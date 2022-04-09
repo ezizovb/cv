@@ -10,22 +10,21 @@ body {
     font-family:  'Roboto Condensed', sans-serif;
 }
 .ava{
-    width: 200px;
+    width: 255px;
     border-radius: 28px;
     box-shadow: -11px 11px 0px rgba(150, 31, 31, 0.25);
-
 }
-.ava:hover{
+/* .ava:hover{
     width: 250px;
-}
+} */
 #nam{
     color: rgb(90, 76, 30);
     letter-spacing: 2px;
 }
 .inf{
-    color:#86898f;
+    color:#211D58;
     margin: 0;
-    font-style: italic;
+    font-style: normal;
     font-weight: bold;
     text-decoration: none;
     /*text-transform: capitalize;*/
@@ -41,7 +40,7 @@ body {
 }
 a{
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover {
     text-decoration: underline;
@@ -88,6 +87,7 @@ a:active{
     display: block;
     font-size: 14px;
     color:#86898f;
+    
 }
 .form-group input,
 .form-group textarea {
@@ -101,14 +101,12 @@ a:active{
     outline: none;
     font-family: inherit;
 }
-
 .row{
      /* display: flex; */
     /* display: block; */
     box-sizing: border-box;
     margin: auto;
     margin-bottom: 20px;
-    
 }
 .row > .form-group{
     width: 100%;
@@ -164,9 +162,9 @@ a:active{
 }
 .pro a{
     color: #423F4AFF;
+    text-decoration: none;
 }
 /*.cub{
-    
 }
 .cub2{
     width:50px;
@@ -184,3 +182,16 @@ a:active{
 .table td:nth-child(3){
     color:#86898f;
 }*/
+#about{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal ;
+    letter-spacing: 1px;
+}
+.myself{
+    color:black;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: italic ;
+}
